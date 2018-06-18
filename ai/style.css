@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(images/poke.png);
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #7d98a1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#myVideo {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    min-width: 90%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+
+    bottom: 0;
+    color: #f1f1f1;
+    width: 95%;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #5e6572;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: #7d98a1;
+}
+
+.column {
+    float: left;
+    width: 50%%;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.background {
+    background: url(poke.png.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
